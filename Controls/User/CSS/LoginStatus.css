@@ -1,0 +1,17 @@
+﻿.userInfoBlock { height: 36px; position: relative; text-align: right; float: right; display: none; }
+.userInfoBlock .item { height: 36px; line-height: 36px; display: block; float: left; color: #424242; }
+.userInfoBlock .item.greetingUser { background: url(img/bullet_login.gif) no-repeat left center; padding-left: 30px; padding-right: 5px; font-weight: bold; }
+.userInfoBlock .item.greetingUser .username { color: #9E5601; }
+.userInfoBlock .item.logOut { text-align: center; padding: 0 5px; font-weight: bold; cursor: pointer; }
+.userInfoBlock .item.logOut:hover { color: #955500; }
+.userInfoBlock .item.manageAccount { text-align: left; padding-left: 5px; }
+
+.userInfoBlock a { color: #424242; font-weight: bold; }
+.userInfoBlock a:hover { color: #955500; font-weight: bold; }
+
+.anonymousBlock { height: 36px; position: relative; float: right; text-align: right; font: bold 12px/18px arial; display: none; }
+.anonymousBlock .item { height: 36px; line-height: 36px; display: block; float: left; }
+.anonymousBlock .item.logIn { overflow: hidden; display: block; background: url(img/bullet_login.gif) no-repeat left center; padding-left: 30px; padding-right: 5px; }
+.anonymousBlock .item.register { overflow: hidden; display: block; padding-left: 5px; }
+.anonymousBlock a { color: #424242; font-weight: bold; }
+.anonymousBlock a:hover { color: #955500; }

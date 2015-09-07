@@ -1,0 +1,69 @@
+
+
+    /*Video_Right*/
+    #VideoRight{ width: 267px;
+        float: left;
+    }
+    #VideoRight .capmenu {
+    background: url("img/ez_iconVideo.jpg") no-repeat;
+    width: 100%;
+    height: 31px;
+    margin-bottom: 20px;
+    }
+    #VideoRight .capmenu a {
+            color: #000;
+            text-decoration: none;
+           font: bold 16px/25px Arial;
+        }
+    #VideoRight .capmenu a:hover{color: #0081CC;}
+    #VideoRight .articlelist ul:first-child {
+   display: block !important;
+    margin-bottom: 0;
+    margin-left: 0;
+    margin-top: 12px;
+    padding: 0;
+}
+    #VideoRight .articlelist ul.avList{ 
+    display: block !important;
+    margin-bottom: 0;
+    margin-left: 0;
+    margin-top: 3px;
+    padding: 0px 0 2px 0;
+    line-height: 25px;
+    float: left;
+}
+    #VideoRight .articlelist ul.avList {
+    margin-top: 5px;
+}
+    #VideoRight .list .scrollVd {
+    margin-top: -5px;
+    float: left;
+    /*width: 265px;*/
+    max-height: 200px;
+    overflow: overlay;
+}
+    #VideoRight  .active_video a {
+      width: 235px;
+    }
+    #VideoRight .list{ width: 100%;overflow: hidden;margin-top: 20px;float: left;}
+    #VideoRight .list .articlelist .scrollVd .avList .active_video{ padding-left: 0px}
+#VideoRight .list .articlelist .scrollVd .avList .active_video a {
+    text-decoration: none;
+color: #fff;
+font: bold 12px/18px Arial;
+background: url('img/icon-videoLeft.png') no-repeat left 2px ;
+padding-left: 23px;
+display: block;
+cursor: pointer;
+
+}
+#VideoRight .list .articlelist .scrollVd .avList .active_video a:hover{color: #0081CC}
+
+ #VideoRight .link-video a {
+     text-decoration: none;
+       width: 235px;
+       background: url("img/icon-videoLeft.png") no-repeat left 2px;
+
+    }
+     #VideoRight .link-video a:hover{color: #0081CC}
+     /*Video_Right---End*/

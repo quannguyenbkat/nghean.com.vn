@@ -1,0 +1,130 @@
+﻿/*Banner*/
+#banner.nivoSlider{width: 100% !important; max-width: 1349px;height: 668px;float: left}
+#banner.nivoSlider .nivo-imageLink{ float: left;}
+#banner.nivoSlider img {width: 100% !important; max-width: 1349px;height: 668px;float: left;}
+
+.Slsecond #banner.nivoSlider{width: 100% !important; max-width: 1349px;height: 485px;float: left}
+.Slsecond #banner.nivoSlider .nivo-imageLink{ float: left;}
+.Slsecond #banner.nivoSlider img {width: 100% !important; max-width: 1349px;height: 485px;float: left;}
+.nivoSlider .nivo-imageLink ,.nivoSlider .nivo-imageLink a{
+    background: none repeat scroll 0 0 #fff;
+    border: 0 none;
+    /* display: none; */
+    height: 100%;
+    left: 0;
+    margin: 0;
+    opacity: 1;
+    padding: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: 6;
+}
+/*Slider logo*/
+.slider-logo2 .item .image img, .slider-logo2 .item .image a img {
+                display: block;
+                margin: 0 auto;
+                filter: grayscale(100%);
+                -moz-filter: grayscale(100%);
+                -webkit-filter: grayscale(100%);
+                -ms-filter: grayscale(100%);
+                -o-filter: grayscale(100%);
+                filter: url(filter.svg#greyscale);
+                filter: gray; 
+                transition: all 0.7s;
+                max-height: 66px;
+            }
+
+            .slider-logo2 .item .image:hover img, .slider-logo2 .item .image a:hover img {
+                filter: grayscale(0%);
+                -moz-filter: grayscale(0%);
+                -webkit-filter: grayscale(0%);
+                -ms-filter: grayscale(0%);
+                -o-filter: grayscale(0%);
+                filter: url(filter.svg#greyscale); 
+                filter: none; 
+            }
+
+.advRight #adv-box img{ max-width: 278px;height: auto;border-radius: 5px;-moz-border-radius: 5px;-webkit-border-radius: 5px;border: 1px solid #7ea3cd;margin-top: 20px;float: left;}
+
+
+
+.adv_left1 {
+    float: left;
+    margin-top: 10px;
+     position: relative;z-index: 999;
+}
+.adv_left1 .item img {
+    border-radius: 6px;-moz-border-radius: 6px;-webkit-border-radius: 6px;
+   margin: 0 0 10px 0; position: relative;z-index: 999;
+}
+
+.adv_left .item:last-child img {
+   margin: 0; float: left;
+}
+.adv_left {
+    float: left;
+    margin-top: 20px;
+    position: relative;z-index: 999;
+    /**margin-top: 20px;*/
+}
+.adv_left .item img {
+    border-radius: 6px;-moz-border-radius: 6px;-webkit-border-radius: 6px;
+   margin: 0 0 20px 0 !important; position: relative;z-index: 9999;
+}
+/*.adv_left2 .item:last-child img {
+    margin: 0 !important;
+    *margin: 0 !important;
+}*/
+
+/*Banner*/
+
+#slide .nivoSlider {
+    height: 100%;
+    width: 653px;
+    z-index: 0;
+    overflow: hidden;
+}
+
+    #slide .nivoSlider a img {
+        height: 290px !important;
+        width: 653px !important;
+    }
+
+
+.advqc {
+    margin-top: 30px;
+    overflow: hidden;
+    position: absolute;
+    text-align: center;
+    top: 10px;
+}
+.advqc #close {
+    display: none;
+    position: absolute;z-index: 11111;
+}
+.advqc .item:hover #close {
+    display: block;
+}
+.advqc.adv_right {
+    right: 0;width: 135px !important;z-index: 22222;
+}
+.advqc.adv_left {
+    left: 0;width: 135px !important;z-index: 22222;
+}
+.adv_right .item {
+    float: left;
+    margin-left: 10px;
+    position: relative;
+}
+.adv_left .item {
+    float: right;
+    margin-right: 10px;
+    position: relative;
+}
+.adv_right .item #close {
+    left: 0;
+}
+.adv_left1 .item #close {
+    right: 0;
+}

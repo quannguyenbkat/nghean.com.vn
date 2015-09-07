@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<MailConfig>
+  <type datakey="1" name="Tiêu đề thư liên hệ" key="ContactSubject" value="Contact [GHSVina.vn]" />
+  <type datakey="2" name="Tên miền" key="Domain" value="GHSVina.vn" />
+  <type datakey="3" name="Tên hiển thị" key="DisplayName" value="BQT Website GHSVina.vn" />
+  <type datakey="4" name="Email quản lý" key="WebMasterEmail" value="support@bicweb.vn" />
+  <type datakey="5" name="Email gửi nền" key="Sender" value="no-reply@bicweb.vn" />
+  <type datakey="6" name="Mật khẩu" key="Password" value="pRftrg+z6nJw6GAjZByyLg==" />
+  <type datakey="7" name="Smtp" key="Smtp" value="smtp.gmail.com" />
+  <type datakey="8" name="Port" key="port" value="587" />
+  <type datakey="9" name="Ssl" key="Ssl" value="1" />
+  <!--<type datakey="10" name="Salemail" key="SaleMail" value="lovelybeautyvn@gmail.com" />-->
+</MailConfig>

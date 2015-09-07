@@ -1,0 +1,64 @@
+﻿.registerBlock { width: 492px; overflow: hidden; position: relative; border: 1px solid #CDCDCD; border-radius: 0.8em; }
+    .registerBlock .caption {margin-top: 20px; width: 50%; padding-left: 54px; margin-left: 86px; height: 51px; background: url(img/register_caption_bg.png) no-repeat left center; }
+
+    .registerBlock .noteBlock { height: 24px; line-height: 24px; display: block; padding-left: 86px; margin: 0 57px 10px 0; float: right; }
+    .registerBlock .noteCaption { font-size: 18px; color: #FF8601; }
+
+    .registerBlock .row { clear: both; width: 492px; }
+        .registerBlock .row.desc { padding-left: 27px; }
+            .registerBlock .row.desc.profile { margin-top: 20px; }
+    .registerBlock .labelCol { float: right; padding-right: 20px; }
+    .registerBlock .controlCol { float: right; position: relative; width: 360px; }
+        .registerBlock .controlCol span { color: #FE8500!important; font-size: 18px; line-height: 18px; height: 18px; padding-top: 8px; width: 20px; display: block; float: right; margin-top: 6px; }
+
+    .registerBlock .userDescGuideLine { display: block; height: 50px; font-weight: bold; color: #9E5601; line-height: 50px; padding-right: 20px; background: url(img/userDesc_bullet.png) no-repeat 340px 13px; }
+    .registerBlock .userDescTextBox { width: 465px; height: 300px; line-height: 18px; padding: 5px; border: 1px solid #DDD; background: #F7F7F7; }
+        .registerBlock .userDescTextBox.short { height: 64px; margin-bottom: 5px; }
+        .registerBlock .userDescTextBox.company { height: 18px; margin-bottom: 5px; }
+
+    .registerBlock .errMsg { width: 348px; display: none; background: url(img/error_icon.png) no-repeat left 1px; font: 12px/18px arial; color: #F00!important; font-style: italic; clear: both; padding-left: 17px; margin-bottom: 8px; }
+        .registerBlock .errMsg.captcha { display: block; margin-top: 35px; margin-bottom: 10px; }
+        .registerBlock .errMsg.aggreement { display: block; }
+    .registerBlock .succMsg { width: 267px; display: none; background: url(img/success_icon.jpg) no-repeat left 1px; font: 12px/18px arial; color: #390!important; font-style: italic; clear: both; padding-left: 17px; margin-bottom: 8px; }
+
+    .registerBlock label { font-weight: bold; color: #9E5601; line-height: 26px; display: block; margin: 5px 0; text-align: right; }
+    .registerBlock .textBox { width: 320px; height: 20px; padding: 3px 5px; border: 1px solid #DDD; margin: 5px 0; float: left; background: #F7F7F7; }
+    .registerBlock .textBox.list { width: 332px; height: 26px; padding:3px;}
+    .registerBlock .registerBtn { width: 93px; height: 29px; position: relative; float: right; margin-right: 28px; }
+
+    .registerBlock .captraBlock { position: relative; overflow: hidden; width: 279px; margin: 5px 26px 5px 0; }
+        .registerBlock .captraBlock span { padding: 0; display: none; }
+        .registerBlock .captraBlock p { margin: 0; }
+        .registerBlock .captraBlock label { font-style: italic !important; color: #CDCBCE; position: absolute; top: -4px; right: 20px; font-weight: normal; }
+        .registerBlock .captraBlock input { width: 118px; height: 16px; float: right; padding: 3px 5px; margin-top: 5px; border: 1px solid #E1E1E1; }
+        .registerBlock .captraBlock img { width: 57px !important; height: 30px!important; float: left; padding-right: 10px; float: left; }
+        .registerBlock .captraBlock a.rcRefreshImage { height: 30px; line-height: 30px; display: block; float: left; color: #337EB5; padding: 0 10px 0 20px; background: url(img/other_captra.png) no-repeat left center; }
+
+    .registerBlock .uploadBlock { width: 100%; position: relative; margin-bottom: 20px; }
+    .registerBlock .uploadControl { position: relative; height: 22px; width: 222px; float: left; top: 4px; }
+    .registerBlock .imageSize { display: block; float: left; width: 100%; text-align: left; height: 20px; color: #424242; font-style: italic; margin-bottom: 10px; margin-top:20px; }
+
+    .registerBlock .label { font-style: italic; color: #9E5601; line-height: 26px; }
+        .registerBlock .label.logo { text-align: left; width: 80px; float: left; }
+
+
+
+    .registerBlock .checkBox { width: 279px; height: 20px; margin: 5px 0 15px 81px; clear: both; display: block; }
+        .registerBlock .checkBox.profile { margin: 5px 0 10px 0; width: 100%; }
+        .registerBlock .checkBox input { line-height: 20px; display: block; float: left; margin-right: 7px; }
+        .registerBlock .checkBox label { margin: 0; padding: 0; color: #010101; font-weight: normal; display: inline; line-height: 20px; display: block; float: left; }
+
+    .registerBlock .visible { display: block; }
+    .registerBlock .hide { display: none; }
+
+
+
+.certificationWarningBlock {width: 562px; padding:20px 20px 470px 20px; overflow: hidden; position: relative; border: 1px solid #D5B88A; border-radius: 0.8em; 
+                            background:url(img/cetificate_bg.jpg) no-repeat center 300px; font-size:13px; color:#424242; line-height:150%; text-align:justify; 
+                            margin-top:10px; font-style:italic;}
+.certificationWarningBlock .certMessage{margin-bottom:10px;}
+.certificationWarningBlock .reason {padding-left:0;}
+.certificationWarningBlock .reason span.caption{font-weight:bold; color:#F00;}
+.certificationWarningBlock .reasonNote {padding-left:20px; background:url(img/error_icon.png) no-repeat left center;}
+.certificationWarningBlock .sympathy{position:absolute; bottom:20px; font-weight:bold; font-size:14px; color:#390;}
+    .certificationWarningBlock .sympathy .mobile{color:#F00; font-size:18px;}

@@ -1,0 +1,22 @@
+﻿/*------------------- Quick menu block, Neo Hoang An ----------------------*/
+.taskTabBlock {padding:20px; position:relative}
+.taskTabBlock .statusBlock{position:relative; margin-bottom:20px;}
+.taskTabBlock .quickMenuBlock{position:relative;}
+
+.taskTabBlock a{font-weight:bold; color:#F25800 !important; height:30px; line-height:30px; margin-top:0 !important}
+.taskTabBlock a:hover{color:#FD8B10}
+    .taskTabBlock .item {float:left; position:relative; padding-left:32px; margin:0 18px 5px 0; height:30px; color:#587F0D; overflow:hidden;}
+    .taskTabBlock .item.right {margin-right:0;}
+    .taskTabBlock .item.plus{background: url(img/plus_icon.png) no-repeat left center; line-height:30px; width:245px; margin-right:0;}        
+    .taskTabBlock .item.newRE {background: url(img/new_theard_button.png) no-repeat left center}
+    .taskTabBlock .item.manageRE {background: url(img/manageAccount_icon.jpg) no-repeat left center}
+    .taskTabBlock .item.viewHistory {background: url(img/scrool.jpg) no-repeat left center}
+    .taskTabBlock .item.moneyIn {background: url(img/money.jpg) no-repeat left center}
+    .taskTabBlock span {font-weight:bold}
+    
+    .taskTabBlock .item.changePass {background: url(img/user-password.jpg) no-repeat left center; width:101px}
+    .taskTabBlock .item.delAccount {background: url(img/delete_icon.png) no-repeat left center; width:106px;}
+    .taskTabBlock .item.updateProfile {background: url(img/updateProfile_icon.png) no-repeat left center}
+    
+    
+.taskTabBlock .quickSeperator {width: 100%; height: 1px; background: url(img/seperator.png) no-repeat center center; position: relative; margin: 15px 0 15px 0; }

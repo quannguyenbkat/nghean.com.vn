@@ -1,0 +1,32 @@
+﻿* {
+    margin: 0;
+    padding: 0;
+}
+body {
+
+}
+
+/* CSS fix - huandh (2015.08.05) */
+
+/*Article Detail*/
+.article_detail #divDetailContent{ max-width: 100%;overflow: auto;}
+.article_detail #divDetailContent table td{ border: 1px solid #d3d3d3;}
+.article_detail #divDetailContent li{ list-style: inherit;list-style-position: inside;}
+.article_detail #divDetailContent a{color: blue !important}
+
+/*Product Detail*/
+.product_detail #divDetailContent{ max-width: 100%;overflow: auto;}
+.product_detail #divDetailContent table td{ border: 1px solid #d3d3d3;}
+.product_detail #divDetailContent li{ list-style: inherit;list-style-position: inside;}
+.product_detail #divDetailContent a{color: blue !important}
+
+/* END fix - huandh (2015.08.05) */
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,11 @@
+﻿.language .menu_body  a.vi { background: url(img/vi.png) no-repeat left 2px; padding-left: 20px; display: block}
+.language .menu_body  a.en { background: url(img/en.png) no-repeat left 2px; padding-left: 20px;display: block }
+.language .menu_body  a.lo { background: url(img/lo.png) no-repeat left 2px; padding-left: 20px;display: block }
+.language .menu_body  a.zh { background: url(img/zh.png) no-repeat left 2px; padding-left: 20px; display: block}
+.language .menu_body  a.km { background: url(img/km.png) no-repeat left 2px; padding-left: 20px; display: block}
+
+.language .menu_langage  a { font-size: 10px; color: #c6c6c6; text-transform: uppercase; margin-left: 5px; margin-bottom: 5px; display: none; }
+
+.language .menu_langage  a.active { display: block; }
+.language .menu_langage  a.vi { background: url(img/vi.png) no-repeat left 4px; padding-left: 20px; }
+.language .menu_langage  a.en { background: url(img/en.png) no-repeat left 4px; padding-left: 20px; }

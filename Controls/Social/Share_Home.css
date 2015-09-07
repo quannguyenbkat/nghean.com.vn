@@ -1,0 +1,27 @@
+﻿#Share_Home {
+    height: auto;
+    overflow: hidden;
+    float: left;
+    /*margin-top: 12px;*/
+}
+#Share_Home .borderBox{ border: 1px solid #d2d2d2;border-top: none;border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    -webkit-border-bottom-left-radius: 5px;
+    -webkit-border-bottom-right-radius: 5px;
+    -moz-border-radius-bottomleft: 5px;
+    -moz-border-radius-bottomright: 5px;}
+
+    #Share_Home .mncapfb {
+        float: left;width: 280px;
+    }
+     #Share_Home .mncapfb a{ cursor: default;}
+
+        /*buttom like*/
+
+        .likefacebook {
+            float: right;margin: 2px -33px 4px 0;
+        }
+.like_vk {
+    float: left;
+    margin-right: 10px;
+}

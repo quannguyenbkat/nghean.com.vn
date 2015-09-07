@@ -1,0 +1,252 @@
+﻿/*gallery Home*/
+.boxgallery{margin: 30px 0; width: 220px;height: 282px;overflow: hidden; float: right;}
+.boxgallery .cap{position: relative; margin-bottom: 19px;float: left;width: 220px;}
+.boxgallery .list_galleryHome{ float: left; }
+.boxgallery .list_galleryHome .item { float: left;width: 220px;margin: 0 5px 0 0;}
+.boxgallery .list_galleryHome .item img{ float: left;width: 219px;height: 142px;}
+.boxgallery .list_galleryHome .item a.title{ margin-top: 10px;float: left;line-height: 18px;text-align: center;width: 100%;color: #0887cf; font-weight: bold}
+.boxgallery .pagination{height: 12px; width: 100%;float: left;margin: 10px 0 0 0;text-align: center; }
+.boxgallery .pagination a { padding: 0 3px; font-size: 0;width: 10px;height: 10px;background: url(img/sh_iconGl.jpg) no-repeat;background-position: left center; display: inline-block }
+.boxgallery .pagination a.selected { padding: 0 3px; font-size: 0;width: 10px;height: 10px;background: url(img/sh_iconGl_active.jpg) no-repeat;background-position: left center; display: inline-block }
+
+
+/*Gallery Right*/
+.content_gallery{ position: relative;float: left;width: 225px;padding-bottom: 20px;}
+.content_gallery .item a img{ float: left;margin:0 0 5px 5px !important;width: 70px !important;height: 70px !important;}
+.content_gallery .viewall{ float: right;position: absolute;right: 0;bottom: 0;}
+.content_gallery .viewall a{ font-weight: bold;color: blue;font-size: 11px;}
+
+/*=================*/
+/*gallerylisting      */
+/*=================*/
+
+.gallery_listing {
+    overflow: hidden;
+    padding: 0px 0px 20px;
+    float:left;
+    position: relative;
+    width:100%;
+}
+.gallery_listing .list {
+  width:103%;
+    position: relative; /*overflow: hidden;*/
+}
+    .gallery_listing .list .groupitem {
+    float:left;margin-bottom:20px;}
+.gallery_listing .list .item {
+    float: left;
+    margin-right: 20px;
+    width:243px;
+    height: 182px;
+    position:relative;
+    border-bottom: 1px solid #e5e5e5;padding-bottom: 20px;
+}
+    .gallery_listing .list .item.firts {clear:both}
+.gallery_listing .list .item .imageviewer {
+    width:243px;height: 182px;position: relative;
+}
+    .gallery_listing .list .item .imageviewer a.item-image {
+        /*background: url(img/bgitemchan.png) no-repeat;*/
+    display:table-cell;vertical-align:middle;text-align:center;position:relative;height: 182px;float: left;
+    width: 243px;}
+        .gallery_listing .list .item .imageviewer a img {height:182px; width:243px;float: left}
+.gallery_listing .list .item .name {
+    background: url(img/hg_bgname.png) repeat;background-position: left center;
+width: 100%;position: absolute;bottom: 0; left:0;
+}
+.gallery_listing .list .item .name a {font-weight: bold;font-size: 16px;
+    color: #fff;font-weight: bold;text-transform: uppercase;padding: 8px 5px;text-align: center;display: inline-block;width: 233px;
+}
+
+    /*gallery_detail    */
+/*=================*/
+
+
+.gallery_detail {
+   
+    margin: 0px auto;
+    position: relative;
+    text-align: center;
+    width: 725px;
+    float: left;
+    margin-top:7px;
+}
+.gallerylisting .title{ color: #0083ce;margin: 15px 0 23px 0;text-align:center;text-transform:uppercase;}
+.gallerylisting .title span{ /*background: url(img/ev_icongll.png) no-repeat;background-position: left center;float: left;*/ padding-left: 25px; font-size: 14px}
+    .gallerylisting .title img {padding-right:7px;}
+    .gallery_detail .caroufredsel_wrapper {
+        left: 0 !important;width: 680px !important;
+    }
+.img_gallerydetail {
+    width:132px;
+    height: 99px;
+}
+#large-image {
+    border: 10px solid #f8f8f8;
+    margin: 0px;
+    width: 748px !important;
+    text-align: center;
+    height: 560px !important;float: left;overflow: hidden;
+}
+
+#large-image a {
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+    width: 748px;
+    vertical-align: middle;
+    height: 560px;  
+}
+
+#large-image img {
+    max-height: 560px;
+    max-width: 748px;
+    width: auto !important;
+    height: auto !important;
+    line-height: 560px !important;
+    vertical-align: middle !important;
+    /*display: table-cell !important*/
+}
+
+.gallery_detail .title {
+    background: url("img/arrow12x12.png") no-repeat scroll -1px 8px transparent;
+    color: #2F7FBE;
+    display: block;
+    font-size: 14px;
+    font-weight: normal;
+    margin: 7px 0 0 20px;
+    padding-left: 16px;
+    padding-top: 5px;
+}
+.gallerylisting {  background: url(img/galry.gif)repeat-x left top;margin-bottom:20px;
+}
+.gallery_detail .list {
+    float: left;
+ left:0px !important
+}
+
+.gallery_detail .list .item {
+    float: left;
+    height: 69px;
+    margin: 0px 7px 0px 0px !important;
+     
+}
+
+.gallery_detail .list .item.right { margin-right: 0px; }
+
+.gallery_detail .list .item .image {
+    background: #f7f7f7;
+    opacity: 0.5;
+    float: left;
+}
+
+.gallery_detail .list .item .image:hover {
+   
+    opacity: 1;
+}
+/*#large-image img {
+    opacity: 1 !important;
+}*/
+
+.gallery_detail .list .item .image a { position: relative;  background: url(img/bgimgsmall.png) no-repeat;width: 91px !important; height: 63px !important}
+.gallery_detail .list .item .image.thumbActive a { position: relative;  background:#00923f;width: 91px !important; height: 63px !important}
+
+.gallery_detail .list .item .image a img { width: 85px;height: 57px;float: left;margin-left: 3px;*margin-top: 3px; }
+
+.thumbActive {
+    opacity: 1 !important;
+}
+
+
+/*=================*/
+/*galleryside      */
+/*=================*/
+
+.othergallery {
+    overflow: hidden;
+    padding: 0px 0px 20px;
+    position: relative;height: 280px;
+}
+
+.othergallery .caption {
+    height: 24px !important;
+    margin-top: 0px !important;
+}
+
+.othergallery .caption span { background: #000; }
+
+.othergallery .list {
+  
+    position: relative; /*overflow: hidden;*/
+}
+.othergallery .list .item {
+    float: left;
+    margin-right: 18px;
+    width:243px;max-height: 182px;
+    position:relative;
+}
+.othergallery .list .item2 {
+    float: left;
+    margin-right: 0;
+    width:243px;
+    position:relative;
+}
+.othergallery .list .item .imageviewer {
+  /*background: url(img/bgitemchan.png) no-repeat;*/
+    width:243px;height:182px
+}
+
+    .othergallery .list .item .imageviewer a.item-image {
+    display:table-cell;vertical-align:middle;text-align:center;position:relative;height:182px; width:243px}
+        .othergallery .list .item .imageviewer a img {height:182px; width:243px; margin-top: 7px !important}
+.othergallery .list .item .image a { display: block; }
+
+.othergallery .list .item .name {
+    background: url(img/hg_bgname.png) repeat;background-position: left center;
+width: 100%;position: absolute;bottom: 0;
+}
+.othergallery .list .item .name a {font-weight: bold;font-size: 16px;
+    color: #fff;font-weight: bold;text-transform: uppercase;padding: 8px 5px;text-align: center;display: inline-block;width: 233px;
+}
+    .othergallery .list .item .name a img {padding-right:6px;}
+.othergallery .cap-b {
+    text-align: center;
+    display: block;
+   height:20px;line-height:20px;
+   padding-bottom:17px;
+/*background: url(img/bg_other_glery.png)repeat-x center bottom;*/
+}
+
+.othergallery .caption_other .prev-pro { width:36px;height:16px;background: url(img/sh_bgprevGl.jpg) no-repeat;margin-top: 4px;float: left }
+.othergallery .caption_other .next-pro{ width:36px;height:16px;background: url(img/sh_bgnextGl.jpg) no-repeat;margin-top: 4px;float: left}
+.othergallery .caption_other { position: relative;float: left;margin-left: 227px; }
+.othergallery .pager a.prev span, .othergallery .pager a.next span { display: none; }
+
+.othergallery .caption_other a.prev {
+    background: url(img/abum_prev.png) no-repeat;
+    display: inline-block;
+    height: 16px;
+    width: 37px;
+    left: 140px;
+    position: absolute;
+    top: 0px;
+}
+
+.othergallery .caption_other a.next {
+    background: url(img/abum_next.png) no-repeat;
+    display: inline-block;
+    height: 16px;
+    width: 37px;
+    left: 317px;
+    position: absolute;
+    top: 0px;
+}
+
+.othergallery .caption_other .label {
+    color: #0083ce;
+    font-weight: bold;
+    font-size: 18px;float: left;
+    text-transform:uppercase;padding: 0 20px;
+}
+
+

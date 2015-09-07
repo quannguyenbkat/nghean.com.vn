@@ -1,0 +1,25 @@
+﻿.accInfoBlock{width:700px; font:12px/20px Arial; padding-top:27px; margin-top:40px; background:url(img/seperator_long_page.png) no-repeat top center; position:relative;}
+.accInfoBlock .captionImage{display:block; position:absolute; top:30px; left:115px;}
+
+.accInfoBlock .infoBlock{width:510px; padding:70px 0 30px 115px; position:relative;}         
+.accInfoBlock .passwordBlock{width:510px; padding:70px 0 0 115px; position:relative;}    
+
+.accInfoBlock .labelCol{float:left; padding-right:10px; width:100px;}
+.accInfoBlock .controlCol{float:left; position:relative; width:390px; padding-bottom:40px;}
+    .accInfoBlock  label{font-weight:bold; color:#2480B3; line-height:26px; display:block; margin-bottom:7px;}
+    .accInfoBlock .textBox{width:330px; height:20px; padding:3px 5px; border:1px solid #DBDBDB; margin-bottom:5px; float:left; margin-right:10px;}
+    .accInfoBlock .controlCol span{float:left; display:block; width:20px; height:15px; padding-top:5px;}
+    .accInfoBlock .button{width:95px; height:29px; position:absolute; right:48px; bottom:0;}    
+
+.accInfoBlock table{margin:80px 0 0 112px;}
+.accInfoBlock .errorBlock{width:313px; display:block; clear:both; color:#F00; font-style:italic; background:url(img/error_icon.png) no-repeat left center; padding-left:17px; }
+    .accInfoBlock .errorBlockSpan span{width:313px; display:block; clear:both; color:#F00; font-style:italic; background:url(img/error_icon.png) no-repeat left center; padding-left:17px; }
+    
+    /*.accInfoBlock .errorBlock span{width:330px; display:block; clear:both;}*/
+    .accInfoBlock .errorBlock span{width:313px; display:block; clear:both; color:#F00; font-style:italic; background:url(img/error_icon.png) no-repeat left center; padding-left:17px; }
+    
+    .succTemplate{width:350px; overflow:hidden; height:100px;}
+        .succTemplate .succMsg{width:216px; display:block; float:left; background:url(img/success_icon.jpg) no-repeat left 1px; font:12px/18px arial; color:#390!important; font-style:italic;  padding-left:17px; margin-top:30px;}    
+        .succTemplate .continue-button{width:100px; display:block; float:right;}
+    
+.accInfoBlock .guide{clear:both; width:452px; padding:20px 36px 0 0; text-align:justify;}

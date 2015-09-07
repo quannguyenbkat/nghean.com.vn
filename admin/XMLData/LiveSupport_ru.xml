@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<LiveSupport>
+  <key key="1" name="Live support 1" type="skype" value="" description=""></key>
+  <key key="2" name="Live support 2" type="yahoo" value="" description=" "></key>
+  <key key="5" name="Address: " type="info" value="" description=" "></key>
+  <key key="6" name="Tel:" type="info" value="" description=" "></key>
+  <key key="7" name="Fax:" type="info" value="" description=" "></key>
+  <key key="8" name="Email: " type="info" value="" description=" "></key>
+</LiveSupport>

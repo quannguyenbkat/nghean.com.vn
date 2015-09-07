@@ -1,0 +1,288 @@
+﻿#uc_contact {
+    position: relative;
+    width: 100%;
+    margin: 0;
+    float: left;
+}
+#uc_contact .bgmap{margin: -5px 0px 0px 61px;}
+/* style page contact */
+.container > .box-contact-left
+{
+    float: left;
+    width: 700px;
+    margin-top:20px;
+}
+.container .box-contact-left .box-about-us
+{
+    float: left;
+    width: 385px;
+    }
+.container .box-contact-left .box-about-us > img
+{
+    margin-left: 70px;
+    }
+    .container .box-contact-left .box-about-us p
+    {
+        margin-bottom: 5px;
+        line-height: 1.4;
+        }
+    .container .box-contact-left .box-about-us p span
+    {
+        color: #e00900;
+        font-weight:bold;
+        }
+    .container .box-contact-left .box-about-us p.ab-company
+    {
+        font-weight: bold;
+        font-family: Myriad Pro; 
+        color:#063b8a; 
+        font-size:14px;
+        }
+    .container .box-contact-left .google-maps
+    {
+        margin: 26px 0px 33px 0px;
+        width: 680px;
+        height: 564px;
+        }
+    .box-item-contact{ height: 316px;}
+/*====== end=========*/
+#contact_left {
+    width: 320px;
+    float: left;
+    margin-right: 55px;
+}
+
+#contact_right {
+    width: 320px;
+    float: left;
+}
+
+#uc_contact .logo {
+    margin: 0 auto;
+    vertical-align: middle;
+    margin-left: 230px;
+}
+
+#uc_contact .contactForm {
+    float: right;
+    width: 370px;margin-top: 42px;
+}
+
+#uc_contact .labelsColumn {
+    width: 70px;
+    float: left;
+}
+#uc_contact .RadCaptcha{ margin-top: 10px;}
+#uc_contact .RadCaptcha,#uc_contact .RadCaptcha  div {float: left; position: relative}
+#uc_contact .RadCaptcha  div #ctl00_cphMain_Contact1_radCapcha_ctl01{float: right}
+#uc_contact .RadCaptcha p{ float: right;}
+#uc_contact .RadCaptcha p input{ width: 87px;height: 23px;
+                                 border-top: 1px solid #c2c2c2;
+        border-left: 1px solid #c2c2c2;background-color: #efefef;
+        border-radius: 4px;-webkit-border-radius: 4px;-moz-border-radius: 4px;
+}
+#uc_contact img.imgcapcha{ width: 83px !important;height: 27px !important;float: left; margin-left: 10px}
+    #uc_contact .labelsColumn label {
+        height: 23px;
+        line-height: 25px;
+        color: #fff;
+        display: block;
+        text-align: left;
+        float: left;
+        margin-bottom: 10px;
+    }
+      #uc_contact .labelsColumn label.capcha{ margin: 85px 0 0 0;}
+        #uc_contact .labelsColumn label .notification {
+            color: red;
+        }
+
+#uc_contact .textBoxsColumn {
+    width: 300px;
+    float: right;
+    margin: 2px 0 0 0;
+}
+
+    #uc_contact .textBoxsColumn .textbox, #uc_contact .RadInputMgr_Default {
+        background-color: #464646;
+        width: 280px;
+        height: 22px;
+        padding: 2px 10px;
+        margin-bottom: 7px;
+        line-height: 20px;
+        border: none;
+        float: left;
+        font-size: 13px;
+        color: #fff;
+        /*border-top: 1px solid #c2c2c2;
+        border-left: 1px solid #c2c2c2;*/
+        border-radius: 5px !important;
+        -webkit-border-radius: 5px;
+        -moz-border-radius: 5px;
+    }
+
+#uc_contact .RadInput_Default .riError, #uc_contact .RadInput_Error_Default {
+    color: red;
+    font-style: italic;
+}
+
+#uc_contact .validator {
+    width: 15px;
+    height: 15px;
+    display: block;
+    padding-top: 8px;
+    float: left;
+}
+
+#uc_contact .textBoxsColumn .textboxMultiline {
+    background-color: #464646;
+    width: 280px;
+    height: 88px;
+    border: none;
+    padding: 5px 10px;
+    float: left;
+    font: 12px/18px arial;
+    color: #fff;
+    margin-top: 0;
+    /*border-top: 1px solid #c2c2c2;
+    border-left: 1px solid #c2c2c2;*/
+    border-radius: 0px !important;
+    -webkit-border-radius: 4px;-moz-border-radius: 4px;
+}
+/*Info*/
+#uc_contact .info {
+    color: #2c2c2c;
+    text-align: center;
+}
+
+    #uc_contact .info .name .value {
+        color: #006cb5;
+        font: bold 12px Arial;
+        text-transform: uppercase;
+    }
+
+    #uc_contact .info .name .label {
+        display: none;
+    }
+
+    #uc_contact .info .office {
+        margin-top: 10px;
+    }
+
+    #uc_contact .info .hotline {
+        font-weight: bold;
+        color: #fff;
+    }
+
+/*Button Viet - English*/
+#uc_contact .btncontact {
+    float: right;
+    margin:15px 0 0 55px;
+    margin-left: 55px;
+    position: relative;
+    z-index: 10;
+}
+
+.btncontact .bgButton {
+    text-align: center;
+    float: left;
+}
+
+.btncontact .bghuy {
+    text-align: center;
+    float: left;
+    margin-left: 6px;
+}
+
+#uc_contact .btncontact a {
+    height: 21px;
+    line-height: 21px;
+    background: transparent linear-gradient(to bottom, #2694D4 0%, #54A3EE 50%, #3690F0 51%, #0081CC 100%) repeat scroll 0% 0%;
+    color: #fff;
+    width: 70px;text-align: center;
+    display: inline-block;font-weight: bold;
+}
+
+
+    #uc_contact .btncontact a:hover {
+        color: white;
+    }
+#uc_contact .rcRefreshImage {cursor: pointer; width: 70px;height: 27px;background: url(img/ly_iconrefcapcha.jpg) no-repeat;background-position: left center;float: left;padding: 0 0 0 28px;margin: 0px 0 0 19px;font-style: italic;color: #4b84c3;font-size: 11px;line-height: 27px;}
+.map {
+    position: absolute;
+    color: #2e2e2e;
+}
+
+    .map img {
+        margin: 0 5px;
+        position: relative;
+        top: 2px;
+    }
+
+.map2 {
+    left: 137px;
+}
+
+.map1 {
+    left: 89px;
+}
+
+.Contact_Notification {
+    padding: 0px 20px;
+    color: #424242;
+    font: italic 12px arial;
+}
+
+    .Contact_Notification span {
+        color: red;
+    }
+
+#ctl00_cphMain_Contact1_Image2 {
+    margin-top: -270px;
+    margin-left: -75px;
+    max-width: 494px;
+    float: left;
+}
+
+.content_company {
+    width: 410px;
+    float: left;
+}
+
+    /*.content_company img {
+        margin-top: 24px !important;
+        *margin-top: -27px !important;
+    }*/
+
+    .content_company .contact_info {
+        line-height: 20px;float: left;
+        color:#595959;
+    }
+    .content_company .contact_info ul li{ list-style: inside;width: 100%; margin: 0 0 12px 0 }
+    .content_company .contact_info ul{padding: 0;margin: 0;}
+        .content_company .contact_info table td {
+            text-align: left;vertical-align: top;
+        }
+
+.imgLoading {
+    width: 130px !important;
+    height: 60px !important;
+    float: left;
+    margin-left: 130px;
+    *margin-left: 130px;
+    margin-top: 70px;
+}
+
+.cation-contact {
+    margin: 0;
+    padding: 0;
+    text-transform: uppercase;
+    color: #ec1e24;
+    font-size: 18px;
+    text-align: left;
+    margin-bottom: 15px;
+    padding-bottom: 15px;
+    border-bottom: 1px solid #eed0d8;
+}
+.map_contact {
+    margin-top: 30px;
+}

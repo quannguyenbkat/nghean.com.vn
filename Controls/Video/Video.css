@@ -1,0 +1,183 @@
+﻿#VideoHome {
+    float: right;
+    width: 460px;
+}
+#VideoHome .capmenu {
+        background: url('img/ez_iconvideo.png') no-repeat scroll 0% 0% transparent;
+    width: 100%;
+    height: 30px;
+    margin-bottom: 18px;
+    margin-left: -8px;
+    float: left
+}
+#VideoHome .capmenu a {
+    color: #333;
+width: 450px;
+float: left;
+font-family: Arial;
+text-transform: uppercase;
+font-size: 20px;
+margin-left: 50px;
+line-height: 30px;
+border-bottom: 1px solid #F1F1F1;
+}
+
+
+#VideoHome .cap {
+        background: url("img/ev_bgVideo.png") no-repeat;
+        border-radius: 4px 4px 0 0;
+        height: 30px;
+        line-height: 30px;
+        z-index: 1;
+    }
+
+       #VideoHome .cap a {
+            color: #FFFFFF;
+            font-size: 14px !important;
+            font-weight: bold;
+            margin-left: 42px;
+            text-transform: uppercase;
+        }
+#VideoHome .articlelist ul:first-child {
+   display: block !important;
+    margin-bottom: 0;
+    margin-left: 0;
+    margin-top: 13px;
+    padding: 0;
+}
+#VideoHome .articlelist ul.avList{ display: block !important;
+    margin-bottom: 0;
+    margin-left: 0;
+    margin-top: 3px;
+    padding: 0;
+    line-height: 25px;float: left;
+}
+#VideoHome .articlelist .avVideo{ margin: 0 0;}
+#VideoHome .list {
+    min-height: 100px;
+    border-top: none;
+}
+#VideoHome .list  { max-width: 460px;
+float: right;
+}
+#VideoHome .list .scrollVd { max-height: 75px;overflow: auto;max-width: 460px; width: 460px}
+#VideoHome .list .adv .item table{ margin: 0 0 0 73px;float: left;width: 328px;}
+.active_video {
+    background: url("img/ez_arrVideo.png") no-repeat !important;background-position: left 4px !important;
+    line-height: 18px;float: left;
+    padding-left: 8px;min-height: 21px;
+}
+.active_video a {
+    color: #01609B !important;
+    line-height: 17px;
+    padding-left: 16px;
+    cursor: pointer;
+    float: left;font-size: 12px;
+    width: 417px;*width: 417px;margin-top: 1px;
+}
+.articlelist .avVideo #avView_wrapper{ margin: 0 0 10px 0;}
+.link-video {
+    background: url("img/ez_arrVideo.png") no-repeat !important;background-position: left 4px !important;
+    cursor: pointer;
+    font-weight: bold;
+    padding:0 0 0 24px !important;width: 417px;min-height: 21px;
+}
+.link-video a {
+    color: #fff;font-size: 12px;
+    font-weight: normal;
+    line-height: 17px;margin-top: 2px;float: left;
+}
+.link-video:hover {
+    padding: 0 0 0 24px !important;
+}
+.link-video:hover a {
+    color: #01609B;
+}
+
+
+
+/*Video Listing*/
+
+#Article_ListVideo{ width: 710px;margin-top: 20px; margin-bottom: 10px}
+#Article_ListVideo .list_titlevideo{ width: 710px;display: none;margin-bottom: 20px; text-align: center}
+#Article_ListVideo .list_titlevideo a{ display: block;color: #006600;font: bold 16px/18px Arial;}
+#Article_ListVideo .list, #Article_ListVideo .list .groupitem{ width: 710px; overflow: hidden}
+#Article_ListVideo .list .groupitem .item{ width: 162px;overflow: hidden;float: left;margin-right: 20px; margin-bottom: 20px}
+
+
+#Article_ListVideo .list .groupitem .itemfirst{ width: 650px;height: 420px;margin: 0;margin-left: 8%}
+
+
+#Article_ListVideo .list .groupitem .itemlast{margin-right: 0}
+
+#Article_ListVideo .list .groupitem .item .imageviewer{ width: 160px;height:125px;}
+
+
+#Article_ListVideo .list .groupitem .item .imageviewer .item_image{
+        width: 160px;
+        height: 125px;
+        /*border: 1px solid #f2f0e9;*/
+        -webkit-border-radius: 5px;
+        -moz-border-radius: 5px;
+        border-radius: 5px;
+        display: block;
+        text-align: center;
+        display: table-cell !important;
+        vertical-align: middle !important;}
+
+
+#Article_ListVideo .list .groupitem .item .imageviewer .item_image img{
+        max-width: 158px !important;
+        max-height: 123px !important;
+        width: auto !important;
+        height: auto !important;
+        -webkit-border-radius: 5px;
+        -moz-border-radius: 5px;
+        border-radius: 5px;
+        display: table-cell !important;
+        vertical-align: middle !important;}
+
+#Article_ListVideo .list .groupitem .itemfirst .imageviewer .item_image{
+        width: 640px;
+        height: 365px;
+        /*border: 1px solid #f2f0e9;*/
+        -webkit-border-radius: 5px;
+        -moz-border-radius: 5px;
+        border-radius: 5px;
+        display: block;
+        text-align: center;
+        display: table-cell !important;
+        vertical-align: middle !important;}
+
+
+#Article_ListVideo .list .groupitem .itemfirst .imageviewer .item_image img{
+        max-width: 635px !important;
+        max-height: 360px !important;
+        width: auto !important;
+        height: auto !important;
+        -webkit-border-radius: 5px;
+        -moz-border-radius: 5px;
+        border-radius: 5px;
+        display: table-cell !important;
+        vertical-align: middle !important;}
+
+
+
+#Article_ListVideo .list .groupitem .item .imageviewer{ position: relative;border: solid 1px #fafafa; }
+#Article_ListVideo .list .groupitem .itemfirst .imageviewer{ width: 645px;height:370px;border: solid 1px #dadada;background: #fafafa; }
+#Article_ListVideo .list .groupitem .item .imageviewer .icon_Play{display: block;width: 65px;height: 65px;background: url("img/icon-play.png") no-repeat;position: absolute;z-index: 200;top: 30px; left: 50px}
+#Article_ListVideo .list .groupitem .itemfirst .imageviewer .icon_Play{display: block;width: 65px;height: 65px;background: url("img/icon-play.png") no-repeat;position: absolute;z-index: 200;top: 45%; left: 45%}
+#Article_ListVideo .list .groupitem .item .name{width: 162px}
+#Article_ListVideo .list .groupitem .itemfirst .name{ width: 645px; text-align: center}
+#Article_ListVideo .list .groupitem .item .name a.title{ display: block;font: normal 12px/18px Arial;margin-top: 10px;width: 160px; color: #000}
+#Article_ListVideo .list .groupitem .itemfirst .name a.title{ display: block;font: normal 15px/20px Arial;margin-top: 10px;width: 645px; color: #000}
+#Article_ListVideo .list .groupitem .item .name a.title:hover{ color: #006600 !important; font-weight: bold}
+
+/*Video Detail*/
+
+#ArticleVideo_Detail{ width: 710px;margin-top: 20px;}
+#ArticleVideo_Detail .title{ width: 710px;margin-bottom: 20px; }
+#ArticleVideo_Detail .title span{ font: bold 16px/18px Arial; color: #000;}
+#ArticleVideo_Detail #divDetailContent{ width: 710px; text-align: center}
+#ArticleVideo_Detail #divDetailContent .videodetail{ width: 560px;text-align: center;border: solid 1px #dadada;border-radius: 3px; margin-left: 75px }
+#ArticleVideo_Detail #divDetailContent .videodetail .view{ width:558px ;height: 420px; }

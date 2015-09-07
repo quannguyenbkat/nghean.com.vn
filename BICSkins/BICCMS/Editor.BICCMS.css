@@ -1,0 +1,31 @@
+.reToolbarWindow { z-index: 900 !important; }
+
+.reToolbar .CustomImageManagement { background-image: url(Editor/bicselectImage.gif); }
+.reToolbar .InsertExternalVideo { background-image: url(Editor/youtube.png); }
+
+a.CustomImageManagement .rrbButtonImage { display: none; }
+
+a.CustomImageManagement span.rrbImagePlaceholder { background: url(Editor/images.png) no-repeat; display: block; margin-left: 14px; }
+
+a.CustomImageManagement span.rrbTextContent { margin-left: 10px; margin-right: 10px; }
+
+a.InsertExternalVideo .rrbButtonImage { display: none; }
+
+a.InsertExternalVideo span.rrbImagePlaceholder { background: url(Editor/youtube.png) no-repeat; display: block; margin-left: 13px; }
+
+a.InsertExternalVideo span.rrbTextContent { margin-left: 10px; margin-right: 10px; }
+
+a.DocumentManager .rrbButtonImage { display: none; }
+
+a.DocumentManager span.rrbImagePlaceholder { background: url(Editor/FILE.png) no-repeat; display: block; margin-left: 9px; }
+a.DocumentManager span.rrbTextContent { margin-left: 10px; margin-right: 10px; }
+
+a.MediaManager .rrbButtonImage { display: none; }
+
+a.MediaManager span.rrbImagePlaceholder { background: url(Editor/mediaKhac.png) no-repeat; display: block; margin-left: 19px; }
+a.MediaManager span.rrbTextContent { margin-left: 10px; margin-right: 10px; }
+
+.RadRibbonBar .rrbLargeButton .rrbImagePlaceholder { height: 35px !important; }
+
+.Office2007.reWrapper { position:relative; z-index:100}
+

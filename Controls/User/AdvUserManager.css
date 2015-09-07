@@ -1,0 +1,38 @@
+﻿.advListBlock{width:700px; overflow:hidden; font:12px/20px arial; color:#393939; position:relative;}    
+    .advListBlock .captionImage{width:298px; height:50px; }
+        
+    .advListBlock .pager{width:480px; height:50px; position:absolute; top:0px; right:0; text-align:right;
+                         font:18px/50px Arial;}
+        .advListBlock .pager label{color:#565656;display:inline-block;}
+        .advListBlock .pager a.num{display:inline-block; color:#3B3B3B;padding:0px 15px;}        
+        .advListBlock .pager a.select{font-size:24px; font-weight:bold; color:#F06000;} 
+        
+    .advListBlock .pageSeperator{width:698px; height:1px; background:url(img/seperator_page.png) no-repeat 60px center;}        
+    
+    .advListBlock .advBlock{width:700px; height:auto; margin-top:25px; border:none;}    
+        .advListBlock .title{width:700px; line-height:25px; overflow:hidden; display:block; }
+            .advListBlock .title a{font-weight:bold; color:#3C99DE; }
+        .advListBlock .statusBar{width:700px; height:20px; margin-bottom:5px;}        
+            .advListBlock .code{width:92px; display:block; float:left; background:url(img/seperator_statusBar.png) no-repeat right center;}            
+            .advListBlock .rating{width:147px; display:block; float:left; text-align:center; background:url(img/seperator_statusBar.png) no-repeat right center;}
+            .advListBlock .pageview{width:133px; display:block; float:left; text-align:center; background:url(img/seperator_statusBar.png) no-repeat right center;}
+            .advListBlock .createdDate{width:167px; display:block; float:left; text-align:center; background:url(img/seperator_statusBar.png) no-repeat right center;}
+            .advListBlock .lastUpdated{width:161px; display:block; float:left; text-align:center;}
+            
+        .advListBlock .infoBlock{width:700px; height:82px; overflow:hidden;}
+            .advListBlock .infoBlock img{width:97px; height:80px; display:block; float:left; margin-right:8px; border:1px solid #F1F1F1 !important;}                
+            
+            .advListBlock .info{float:left; border:1px solid #F1F1F1; padding:10px 8px; text-align:justify; margin-right:8px; }                
+                .advListBlock .info .text{width:241px; height:60px; display:block; overflow:hidden; }
+           
+            .advListBlock .statusBlock{width:245px; height:79px; float:left; margin-right:8px; border:1px solid #F1F1F1;}
+                .advListBlock .leftCol{width:112px; padding:10px 5px 10px 8px; float:left; overflow:hidden;}
+                .advListBlock .statusBlock .seperator{width:1px; height:79px; background:url(img/seperator_statusBlock.png) no-repeat left center; float:left;}
+                .advListBlock .rightCol{width:107px; padding:10px 0 10px 8px; float:left; overflow:hidden;}
+                
+            .advListBlock .buttonBlock{width:59px; height:79px; float:left; border:1px solid #F1F1F1;}
+                .advListBlock .btnEdit{width:29px; height:39px; padding-left:27px; line-height:39px; background:url(img/icon_edit.png) no-repeat 8px center;}                                
+                    .advListBlock .btnEdit a{font-weight:bold; color:#3C99DE;}
+                .advListBlock .buttonBlock .seperator{width:64px; height:1px; background:url(img/seperator_btnBlock.png) no-repeat center center;}
+                .advListBlock .btnDelete{width:29px; height:39px; padding-left:27px; line-height:39px; font-weight:bold; color:#3C99DE; background:url(img/icon_delete.png) no-repeat 10px center;}                    
+                    .advListBlock .btnDelete a{font-weight:bold; color:#3C99DE;}

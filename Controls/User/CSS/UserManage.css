@@ -1,0 +1,109 @@
+﻿/*########################################## USER MANAGE ACCOUNT INFO ############################################*/
+.accountBlock { width: 100%; font: 12px/20px Arial; padding: 20px 0 0px 0; position: relative;background: #fff;margin-bottom: 20px; }
+
+.accountBlock .guide { clear: both; padding: 0 15px 30px 15px; font-weight: bold;color: #a47879;}
+.accountBlock .infoBlock1 { width: 235px; padding: 70px 0 25px 5px; position: relative;float: left; }
+.accountBlock .infoBlock1 .row1 span{ font-weight: bold;color: #a47879;}
+.accountBlock .infoBlock { width: 620px; padding: 70px 20px 25px 20px; position: relative; background: url(img/register_caption.png) 15px top no-repeat #fff;float: left; }
+.seperator { width: 100%; height: 1px; background: url(img/seperator.png) no-repeat center center; position: relative; margin: 45px 0 15px 0; }
+.accountBlock .changePassBlock { width: 100%; position: relative; padding: 70px 10px 35px 10px; background: url("img/change_password_caption.png") 15px top no-repeat; }
+
+/*----------- CSS for userprofile info block ----------------*/
+.accountBlock .row { clear: both; width: 520px; }
+.accountBlock .row1 { clear: both; width: 255px; }
+.accountBlock .labelCol { float: right; padding-right: 20px; }
+.accountBlock .labelCol1 { float: left; padding-right: 20px;width: 133px; }
+.accountBlock .controlCol1 { float: left; position: relative; width: 100px; }
+.accountBlock .controlCol { float: right; position: relative; width: 390px; }
+.accountBlock .controlCol span { color: #FE8500 !important; font-size: 18px; line-height: 20px; height: 20px; padding-top: 8px; width: 20px; display: block; float: right; margin-bottom: 5px; }
+.accountBlock .controlCol .avatar { width: 100px;height: 100px}
+.accountBlock .errMsg { width: 300px; display: none; background: url(img/error_icon.png) no-repeat left 1px; font: 12px/18px arial; color: #F00 !important; font-style: italic; clear: both; padding-left: 17px; margin-bottom: 10px; }
+.accountBlock .succMsg { width: 300px; display: none; background: url(img/success_icon.jpg) no-repeat left 1px; font: 12px/18px arial; color: #390 !important; font-style: italic; clear: both; padding-left: 17px; margin-bottom: 10px; }
+
+.accountBlock label { font-weight: bold; color: #353535; line-height: 26px; display: inline-block; margin-bottom: 5px; text-align: right; }
+.accountBlock .textBox { width: 353px; height: 20px; padding: 3px 5px; border: 1px solid #DDD; margin-bottom: 5px; float: left;}
+.accountBlock .textBox[readonly=readonly] {background: #F7F7F7;} 
+.accountBlock .textBox1 { width: 70px; height: 20px; padding: 3px 5px; border: 1px solid #DDD; margin-bottom: 5px; float: left;}
+.accountBlock .textBox1[readonly=readonly] {background: #F7F7F7;}
+.accountBlock .btnChange { margin-top: 20px ; text-align: center }
+.accountBlock .btnChange > input[type=button] { background: url("img/btn-login1.png");border: none;width: 99px;height: 36px;color: #fff;font-weight: bold;cursor: pointer;}
+
+
+/*########################################## USER MANAGE ADV ############################################*/
+.reListingManageBlock { width: 602px; position: relative; }
+.reListingManageBlock .captionBlock { width: 100%; height: 33px; background: url(img/ReManageBlock_bg.png) repeat-x; position: relative; }
+.reListingManageBlock .searchResult { height: 18px; line-height: 18px; font-weight: bold; color: #8C8C8C; position: absolute; top: 5px; left: 20px; }
+
+.reListingManageBlock .topPagerBlock { height: 23px; position: absolute; right: 5px; top: 5px; width: 60%; text-align: right; }
+.reListingManageBlock .topPagerBlock a { font-weight: bold; margin-right: 7px; }
+.reListingManageBlock .topPagerBlock a.num { width: 21px; height: 21px; line-height: 21px; font-weight: bold; color: #DA8820; text-align: center; padding: 0; display: inline-block; }
+.reListingManageBlock .topPagerBlock a.select { background: #EBC551; color: #9E5601; display: inline-block; border: 1px solid #F1D581; border-radius: 0.3em; }
+
+.reListingManageBlock .item { width: 562px; padding: 15px 20px 0 20px; position: relative; background: #F2F2F2; }
+.reListingManageBlock .item.odd { background: #fff; }
+.reListingManageBlock .item.last { border-bottom-left-radius: 0.8em; border-bottom-right-radius: 0.8em; -moz-border-bottom-left-radius: 0.8em; -moz-border-bottom-right-radius: 0.8em; -webkit-border-bottom-left-radius: 0.8em; -webkit-border-bottom-right-radius: 0.8em; }
+.reListingManageBlock .title { overflow: hidden; position: relative; clear: both; margin-bottom: 5px; }
+.reListingManageBlock .title a { font-weight: bold; color: #9E5601; }
+
+.reListingManageBlock .btnbound{ display: inline-block;background: url(img/bgpattern.png);margin-top: 15px;padding: 4px;width: 100%;}
+    .reListingManageBlock .btnbound div{ height: 21px;float: left;width: auto;padding: 0 9px;}
+    .reListingManageBlock .btnbound .editButton{ padding: 0 9px 0 5px;}
+    .reListingManageBlock .btnbound .UpAutoButton{ padding: 0 5px 0 9px;float: right;}
+    .reListingManageBlock .btnbound .UpOnce{ float: right;}
+.reListingManageBlock .image { width: 80px; height: 60px; position: relative; overflow: hidden; float: left; padding: 5px; background: #ddd; margin: 1px 10px 0 0; }
+.reListingManageBlock .shortDesc { width: 460px; height: 40px; float: left; position: relative; line-height: 19px; text-align: justify; font-weight: normal; overflow: hidden; }
+.reListingManageBlock .item .upnewauto { font-weight: normal; float: left; width: 562px; margin-top: 10px; color: #424242; }
+.reListingManageBlock .item .upnewauto .first { float: left; display: block; height: 35px; line-height: 35px; margin-right: 10px; }
+.reListingManageBlock .item .upnewauto .row { float: left; }
+.reListingManageBlock .item .upnewauto span { color: #935D15; }
+.reListingManageBlock .item .upnewauto .t { color: #424242; }
+.reListingManageBlock .bottomInfoBlock { width: 100%; height: 30px; margin-top: 10px; line-height: 30px; overflow: hidden; border-top: 1px solid #EBEBEB; float: right; font-weight: normal; }
+.reListingManageBlock .square { position: relative; float: right; padding-right: 25px; background: url(img/bottom_info_seperator.png) no-repeat right center; }
+.reListingManageBlock .price { position: relative; float: right; padding: 0 25px; background: url(img/bottom_info_seperator.png) no-repeat right center; }
+.reListingManageBlock .postedDate { position: relative; padding-left: 25px; float: right; }
+.reListingManageBlock .hiliText { color: #9E5601; }
+
+.reListingManageBlock .bottomBlock { background: url(img/REListing_caption_bg.png) repeat-x; height: 33px; padding-top: 16px; font-weight: normal; }
+.reListingManageBlock .bottomPagerBlock { text-align: center; }
+.reListingManageBlock .bottomPagerBlock a { font-weight: bold; margin-right: 7px; }
+.reListingManageBlock .bottomPagerBlock a.num { width: 21px; height: 21px; line-height: 21px; font-weight: bold; color: #DA8820; text-align: center; padding: 0; display: inline-block; }
+.reListingManageBlock .bottomPagerBlock a.select { background: #EBC551; color: #9E5601; display: inline-block; border: 1px solid #F1D581; border-radius: 0.3em; }
+/*---------------------------UserManageTaskTab---------------------------------------*/
+
+/*--------- Telerik Rad Tab Strip (same as Menu)--------*/
+.UserManageBlock {float:left;margin-left:20px;margin-top:20px; width: 920px; border: 1px solid #CDCDCD; border-radius: 0.8em; -moz-border-radius: 0.8em; -webkit-border-radius: 0.8em; overflow: hidden; font: bold 12px/18px arial; color: #2B2B2B; position: relative; }
+
+.UserManageBlock .RadTabStrip { width: 100%; height: 34px; z-index: 100; position: relative;background-color: #0193cf; }
+.UserManageBlock .RadTabStrip .rtsLevel .rtsLI { height: 35px; float: left; border-top-left-radius: 0.8em; border-top-right-radius: 0.8em; overflow: hidden; }
+.UserManageBlock .RadTabStrip .rtsLevel .rtsLI.rtsFirst { margin-left: 1px; }
+.UserManageBlock .RadTabStrip .rtsLevel .rtsLI.rtsLast { background: none; width: -moz-fit-content; }
+.UserManageBlock .RadTabStrip .rtsLevel { position: absolute; top: 0; left: 0; height: 35px; padding: 0; }
+.UserManageBlock .RadTabStrip .rtsLevel .rtsLink { background: none; height: 35px; padding: 0; }
+.UserManageBlock .RadTabStrip .rtsLevel .rtsOut { background: none; height: 35px; padding-right: 0; }
+.UserManageBlock .RadTabStrip .rtsIn { background: none; height: 35px; padding: 0; position: relative;}
+.UserManageBlock .RadTabStrip .rtsIn .rtsImg { background: none; padding: 0; text-align: center; position: relative; top: -18px; left: 0; }
+.UserManageBlock .RadTabStrip .rtsTxt { color: #fff; font-weight: bold; text-align: center; height: 35px; line-height: 35px; padding: 0 17px; }
+.UserManageBlock .RadTabStrip .rtsLevel a.rtsLink.rtsSelected .rtsOut { height: 35px; padding-right: 0; }
+.UserManageBlock .RadTabStrip a.rtsLink.rtsSelected .rtsIn { height: 35px; }
+.UserManageBlock .RadTabStrip a.rtsLink.rtsSelected .rtsTxt { color: #ff5d80; display: block; font-weight: bold; text-align: center; height: 35px; line-height: 35px; background: #fff; margin-top: 1px; border-top-left-radius: 0.8em; border-top-right-radius: 0.8em; -webkit-border-top-left-radius: 0.8em; -webkit-border-top-right-radius: 0.8em; -moz-border-top-left-radius: 0.8em; -moz-border-top-right-radius: 0.8em; }
+.UserManageBlock .RadTabStrip .multiPage { width: 100%; display: inline-block; position: relative; }
+.UserManageBlock .RadTabStrip .corporatePageView { position: relative; width: 100%; padding-bottom: 25px; }
+.UserManageBlock .RadTabStrip .corporatePageView .viewAll { height: 18px; position: absolute; bottom: 0; right: 16px; padding-left: 16px; background: url(img/view_all.png) no-repeat left center; }
+
+.btnUpdate {
+    text-align: center;
+    margin-top: 20px;
+}
+.btnUpdate > input[type=submit] {
+    width: 99px;
+    height: 36px;
+    background: url("img/btn-login1.png") center;
+    color: #fff;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+}
+.text-point {
+    font-size: 13px;
+    line-height: 26px;
+}

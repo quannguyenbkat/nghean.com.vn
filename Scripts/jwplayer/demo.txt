@@ -1,0 +1,19 @@
+<div class="wrap-viewer">
+<object width="474" height="372" type="application/x-shockwave-flash" data="/JScripts/player.swf" id="viewer" name="viewer">
+<param name="allowfullscreen" value="true"><param name="allowscriptaccess" value="always">
+<param name="wmode" value="opaque">
+<param name="flashvars" value="id=viewer&amp;file=/Uploaded/DuyMH/2011_03_07/NaniCrying.flv&amp;image=/Image.aspx%3Fid%3D708%26ts%3D0%26ty%3D2%26lm%3D634350895385230000&amp;stretching=uniform&amp;autostart=true&amp;controlbar.position=bottom&amp;skin=/JScripts/playerskin/bbd/bbd.xml"></object>
+<script type="text/javascript">
+jwplayer("viewer").setup({
+flashplayer: "/JScripts/player.swf",
+height: 372,
+width: 474,
+file: '/Uploaded/DuyMH/2011_03_07/NaniCrying.flv',
+image: '/Image.aspx?id=708&amp;ts=0&amp;ty=2&amp;lm=634350895385230000',
+stretching: 'uniform',
+autostart: true,
+"controlbar.position": "bottom",
+skin:'/JScripts/playerskin/bbd/bbd.xml'
+});
+</script>
+</div>

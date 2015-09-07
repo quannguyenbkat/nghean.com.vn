@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" standalone="yes"?>
+<TypeMenu>
+  <type name="Menu đỉnh" key="1" type="global" cot="cot1"/>
+  <type name="Menu đặc biệt nội dung" key="3" type="global" cot="cot2"/>
+  <type name="Danh mục Footer" key="3" type="global" cot="cot3"/>
+  <type name="Thư viện video" key="66" type="video" cot="cot2"/>
+  <type name="Thư viện ảnh" key="77" type="gallery" cot="cot4"/>
+</TypeMenu>

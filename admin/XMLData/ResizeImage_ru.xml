@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" standalone="yes"?>
+
+<TypeNews>
+  <type name="Не изменить" key="0" value="Không thay đổi" />
+  <type name="Ширина фото (1000px)" key="1000" value="Ширина фото (1000px)" />
+  <type name="Ширина фото 800px)" key="800" value="Ширина фото (800px)" />
+  <type name="Ширина фото (600px)" key="600" value="Ширина фото (600px)" />
+  <type name="Ширина фото (400px)" key="400" value="Ширина фото (400px)" />
+</TypeNews>

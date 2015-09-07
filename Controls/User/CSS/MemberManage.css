@@ -1,0 +1,400 @@
+﻿#forgotpass-form a:hover, #regis-form a:hover, #login-form a:hover{ text-decoration: none;}
+#box_user ul,#Login ul{ padding: 0;margin: 0; }
+#box_user ul li, #Login ul li{ list-style: none; float: left}
+#box_user ul li a,#Login ul li a{ padding: 0 10px;text-transform: uppercase;color: #000;font-size: 11px;text-decoration: underline;}
+#box_user ul li.shopping-cart a,#Login ul li.shopping-cart a{ padding: 0 3px 0 10px;}
+
+
+
+#forgotpass-form .dn {
+    font-size: 16px;
+    padding-left: 20px;
+    text-shadow: 0 1px 0 #666666;
+    text-transform: uppercase;
+    color: #ffffff;
+    text-align: left;
+    font-weight: bold;
+    width: 440px;
+    float: left;
+}
+
+#forgotpass-form .Errortext {
+    color: red;
+    margin: 5px auto 15px;
+    padding: 10px;
+    background: #FFF9D7;
+    border: 1px solid #E2C822;
+    font-size: 15px;
+}
+
+#forgotpass-form input {
+    width: 265px;
+    margin-left: 15px;
+    height: 25px;
+    border: solid 1px #9DD2EA;
+}
+
+    #forgotpass-form input:hover {
+        border: solid 1px #51cdf4;
+        box-shadow: 0 0 3px #51cdf4;
+    }
+
+#forgotpass-form b {
+    display: block;
+    width: 240px;
+    padding-left: 10px;
+    height: 30px;
+    color: #4b2c03;
+    font-size: 13px;
+}
+
+#forgotpass-form span {
+    font-size: 12px;
+    line-height: 22px;
+    padding: 10px;
+    display: block;
+}
+
+#forgotpass-form .send-bt {
+    background: url(img/btn-login.png) repeat-x;
+    display: block;
+    width: 99px;
+    height: 36px;
+    margin-left: 183px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    line-height: 36px;
+    text-align: center;
+    color: #a47879;
+}
+
+#forgotpass-form .cancel-bt {
+    background: url(img/btn-login.png) repeat-x;
+    width: 99px;
+    height: 36px;
+    line-height: 36px;
+    text-align: center;
+    color: #a47879;
+}
+
+#forgotpass-form {
+    display: block; /* Hide the DIV */
+    position: fixed;
+    _position: absolute; /* hack for internet explorer 6 */
+    width: 480px;
+    background: #FFFFFF;
+    top: 120px;
+    z-index: 9999; /* Layering ( on-top of others), if you have lots of layers: I just maximized, you can change it yourself */
+    margin-left: 15px; /* additional features, can be omitted */
+    border: 2px solid #c4c4c4;
+    font-size: 15px;
+    border-radius: 5px;
+    -moz-box-shadow: 0 0 5px #c4c4c4;
+    -webkit-box-shadow: 0 0 5px #c4c4c4;
+    box-shadow: 0 0 5px #c4c4c4;
+}
+
+#forgotpass-form .item span {
+    float: left;
+    font-weight: bold;
+}
+
+#forgotpass-form .item input {
+    float: right;
+    margin-top: 5px;
+    margin-right: 10px;
+}
+
+
+#login-form {
+    display: block; /* Hide the DIV */
+    position: fixed;
+    _position: absolute; /* hack for internet explorer 6 */
+    min-height: 215px;
+    width: 400px;
+    background: #FFFFFF;
+    top: 120px;
+    z-index: 9999; /* Layering ( on-top of others), if you have lots of layers: I just maximized, you can change it yourself */
+    margin-left: 15px; /* additional features, can be omitted */
+    border: 2px solid #c4c4c4;
+    font-size: 15px;
+    border-radius: 5px;
+    -moz-box-shadow: 0 0 5px #c4c4c4;
+    -webkit-box-shadow: 0 0 5px #c4c4c4;
+    box-shadow: 0 0 5px #c4c4c4;
+    text-align: center;
+}
+
+    #login-form .title, #regis-form .title, #forgotpass-form .title {
+        width: 100%;
+        background: #1f427e;
+        height: 40px;
+        line-height: 40px;
+    }
+
+    #login-form .dn {
+        font-size: 16px;
+        padding-left: 20px;
+        text-transform: uppercase;
+        color: #fff;
+        font-weight: bold;
+        width: 350px;
+        float: left;
+    }
+
+    #login-form .title a, #regis-form .title a, #forgotpass-form a {
+        display: block;
+        float: left;
+        color: #FFFFFF;
+        font-weight: bold;
+        height: 40px;
+        line-height: 40px;
+        cursor: pointer;
+    }
+
+#regis-form .dn {
+    font-size: 16px;
+    padding-left: 20px;
+    text-shadow: 0 1px 0 #fff;
+    text-transform: uppercase;
+    color: #fff;
+    font-weight: bold;
+    width: 450px;
+    float: left;
+}
+
+#regis-form .td {
+    text-align: right;
+    width: 200px;
+    color: #006997;
+    font-size: 13px;
+    height: 35px;
+}
+
+#regis-form input {
+    height: 20px;
+    line-height: 20px;
+    width: 200px;
+}
+
+#login-form a:hover, #regis-form a:hover, #support-form .title a:hover, #forgotpass-form a:hover {
+    /*text-align: left;*/
+    /*color: #4F2D00;*/
+}
+
+#login-form .content {
+    margin-top: 10px;
+}
+
+    #login-form .content .td {
+        color: #1f427e;
+        font-weight: bold;
+        text-align: right;
+        width: 145px;
+    }
+
+    #login-form .content .inputtext {
+        height: 20px;
+        line-height: 20px;
+        width: 198px;
+    }
+
+.mtop10 {
+    width: 330px;
+    margin-top: 10px;
+    margin: 0 auto;
+}
+
+#login-form .btn_login {
+    border: none;
+    background: #1F427E;border-radius: 5px;-webkit-border-radius: 5px;-moz-border-radius: 5px;
+    width: 99px;
+    height: 31px;
+    cursor: pointer;
+    display: block;
+    float: left;
+    padding-bottom: 5px;
+    padding-right: 5px;
+    line-height: 36px;
+    font-size: 12px;
+    font-weight: bold;
+    color: #fff;
+    text-align: center;
+    margin-right: 15px;
+    margin-bottom: 10px;
+}
+.chkInput,.chkInput input {
+    float: left !important;
+    margin: 0 !important;
+    margin-right: 10px !important;
+    width: auto !Important;
+}
+.chkInput label {
+    font-size: 13px;
+}
+.quenmk {
+    color: #8f8f8f;
+    /*font-weight: bold;*/
+    text-decoration: none;
+    display: block;
+    /*padding: 9px 0 0 5px;*/
+    line-height: 40px;
+    text-align: left;
+    float: left;
+    font-size: 16px;
+}
+
+    .quenmk:hover {
+    }
+
+#login-form .mtop15 {
+    margin-top: 15px;
+    padding: 15px 0;
+    background: #fefbc4;
+    border-top: 1px solid #d5d0cd;
+    text-align: center;
+}
+
+    #login-form .mtop15 b {
+        color: #006AA6;
+        display: block;
+        width: 350px;
+        margin-bottom: 15px;
+    }
+
+#regis-form .btn_dangky {
+    width: 78px;
+    height: 34px;
+    background: #1F427E;border-radius: 5px;-webkit-border-radius: 5px;-moz-border-radius: 5px;
+    border: none;
+    display: block;
+    margin: 0 auto;
+    cursor: pointer;
+    line-height: 34px;
+    font-size: 12px;
+    font-weight: bold;
+    color: #fff;
+}
+
+#login-form .btn_dangky {
+    /*width: 226px;
+    height: 46px;
+    background: url("img/bt-dangky.png") no-repeat;*/
+    border: none;
+    /*display: block;
+    margin: 0 auto;*/
+    text-align: left;
+    cursor: pointer;
+    line-height: 40px;
+    font-size: 16px;
+    margin-left: 20px;
+    /*font-weight: bold;*/
+    color: #8f8f8f;
+    float: left;
+}
+
+#regis-form {
+    display: block; /* Hide the DIV */
+    position: fixed;
+    _position: absolute; /* hack for internet explorer 6 */
+    padding-bottom: 10px;
+    width: 500px;
+    top: 35px;
+    z-index: 9999; /* Layering ( on-top of others), if you have lots of layers: I just maximized, you can change it yourself */
+    margin-left: 15px; /* additional features, can be omitted */
+    border: 2px solid #c4c4c4;
+    font-size: 15px;
+    background: #FFFFFF;
+    border-radius: 5px;
+    -moz-box-shadow: 0 0 5px #c4c4c4;
+    -webkit-box-shadow: 0 0 5px #c4c4c4;
+    box-shadow: 0 0 5px #c4c4c4;
+    text-align: center;
+}
+#regis-form table {
+    text-align: left;
+}
+
+.error {
+    border: 1px solid red !important;
+}
+
+.ThongBao {
+    width: 95%;
+    color: red;
+    margin: 5px auto 15px;
+    padding: 10px 0 10px 0;
+    background: rgb(255, 249, 215);
+    border-top: 1px solid rgb(226, 200, 34);
+    border: 1px solid rgb(226, 200, 34);
+    text-align: center;
+    font-size: 15px;
+}
+
+.background-opacity {
+    display: block;
+    position: fixed;
+    z-index: 50;
+    min-width: 100%;
+    min-height: 800px;
+    top: 0;
+    left: 0;
+    background: #000000;
+    opacity: 0.5;
+    filter: alpha(opacity=50);
+    z-index: 9999;
+}
+
+.loading {
+    background: url("img/loading.gif") no-repeat scroll 3px center #008ED6;
+    color: #FFFFFF;
+    display: block;
+    font-family: Arial,Helvetica,Verdana;
+    padding: 6px 11px 6px 30px;
+    position: fixed;
+    right: 0;
+    top: 0;
+    z-index: 99999;
+}
+
+.classic-popup {
+    background: none repeat scroll 0 0 rgba(255, 255, 255, 0.24);
+    border-radius: 5px 5px 5px 5px;
+    padding: 5px;
+}
+
+#regis-form .captraBlock img {
+    float: left;
+    height: 30px !important;
+    padding-right: 10px;
+    width: 57px !important;
+}
+#regis-form .captraBlock a.rcRefreshImage {
+    background: url("img/other_captra.png") no-repeat scroll left center transparent;
+    color: #337EB5;
+    display: block;
+    float: left;
+    height: 30px;
+    line-height: 30px;
+    padding: 0 10px 0 20px;
+}
+.star {
+    padding-left: 10px;
+    color: red;
+}
+#regis-form .captraBlock {
+    position: relative;
+}
+#regis-form .captraBlock .star {
+    color: red;
+    position: absolute;
+    top: 33px;
+    right: 31px;
+}
+.tdCode input {
+    width: 25px !important;
+    margin-left: 75px; 
+}
+#regis-form .btDK {
+    margin: 10px;
+}

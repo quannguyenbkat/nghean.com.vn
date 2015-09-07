@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" standalone="yes"?>
+<TypeNews>
+  <type key="1" value="Logo Header" name="Logo Header"/>
+  <type key="2" value="Banner slide (1349 - 355)" name="Banner slide (1349 - 355)"/>
+  <type key="3" value="Thông tin liên hệ Footer" name="Thông tin liên hệ Footer"/>
+  <type key="4" value="Thông tin trang liên hệ" name="Thông tin trang liên hệ"/>
+  <type key="5" value="Popup (600 - 400)" name="Popup (600 - 400)"/>
+  <type key="6" value="Quảng cáo chạy dọc trái (600 - 400)" name="Quảng cáo chạy dọc trái (600 - 400)"/>
+  <type key="7" value="Quảng cáo chạy dọc phải (600 - 400)" name="Quảng cáo chạy dọc phải (600 - 400)"/>
+</TypeNews>

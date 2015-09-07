@@ -1,0 +1,58 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="Site.master.cs" Inherits="Site" %>
+
+
+<%@ Import Namespace="BIC.Utils" %>
+<%@ Register Src="~/Controls/Menu/HorizontalTopPrimary.ascx" TagPrefix="uc1" TagName="HorizontalTopPrimary" %>
+
+
+
+
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="vi">
+<head id="Head1" runat="server">
+    <title></title>
+    <telerik:RadCodeBlock ID="RadCodeBlock1" runat="server">
+         <%-- -----------------Start Meta for Seo----------------------- --%>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <meta property="og:title" content="<%=SeoInfo.MetaTitle%>">
+        <meta property="og:type" content="<%=SeoInfo.Type%>">
+        <meta property="og:image" content="<%=Common.GetSiteUrl()+SeoInfo.ImageLink%>">
+		<meta property="og:url" content="<%=SeoInfo.Url%>">
+        <meta property="og:description" content="<%=SeoInfo.MetaDescription%>">
+        <meta property="og:site_name" content="<%=BicXML.ToString("FacebookSiteName", "SearchEngine") %>">
+        <meta property="fb:app_id" content="<%= BicXML.ToString("FacebookAppID", "SearchEngine") %>" />
+        <link rel="canonical" href="<%=SeoInfo.Url%>">
+        <title><%=SeoInfo.MetaTitle%></title>
+        <meta name="description" content="<%=SeoInfo.MetaDescription%>" />
+        <meta name="keywords" content="<%=SeoInfo.MetaKeyword%>" />
+        <meta itemprop="name" content="<%=SeoInfo.MetaTitle%>">
+        <meta itemprop="url" content="<%=SeoInfo.Url%>">
+        <meta itemprop="description" content="<%=SeoInfo.MetaDescription%>">
+        <meta itemprop="image" content="<%=Common.GetSiteUrl() +SeoInfo.ImageLink%>">
+        <meta name="robots" content="noydir,noodp,index,follow" />
+        <meta name="viewport" content="width=1120" />
+        <meta name='revisit-after' content='1 days' />
+        <meta http-equiv="content-language" content="<%=BicLanguage.CurrentLanguage%>" />
+       <link rel="shortcut icon" href='<%=Page.ResolveUrl("~/favicon.ico") %>' type="image/x-icon" />
+        <meta name="geo.placename" content="<%= BicXML.ToString("Placename", "SearchEngine") %>" />
+        <meta name="geo.position" content="<%= BicXML.ToString("GeoPosition", "SearchEngine") %>" />
+        <meta name="geo.region" content="<%= BicXML.ToString("Georegion", "SearchEngine") %>" />
+        <%-- -----------------End Meta for Seo---------------------- --%>
+        <meta name="google-site-verification" content="<%= BicXML.ToString("GoogleWebMasterKey", "SearchEngine") %>" />
+        
+        <%= Include.DefaultCss() %>
+        <%= Include.JqueryUI() %>
+        <meta name="google-site-verification" content="<%= BicXML.ToString("GoogleWebMasterKey", "SearchEngine") %>" />
+    </telerik:RadCodeBlock>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <telerik:RadScriptManager runat="server" ID="rcm1" />
+        <div class="wrapper">
+        <uc1:HorizontalTopPrimary runat="server" ID="HorizontalTopPrimary" TypeID="1" />
+        <asp:ContentPlaceHolder ID="cphMain" runat="server">
+        </asp:ContentPlaceHolder>
+        </div>
+    </form>
+</body>
+</html>

@@ -1,0 +1,239 @@
+﻿@charset "utf-8";
+/* CSS Document */
+.lof-slidecontent
+{
+    position: relative;
+    overflow: hidden;
+    /*width: 638px;
+    height: 270px;*/
+}
+
+    .lof-slidecontent .preload
+    {
+        height: 100%;
+        width: 100%;
+        background: #FFF;
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: 100000;
+        color: #FFF;
+        text-align: center;
+    }
+
+        .lof-slidecontent .preload div
+        {
+            height: 100%;
+            width: 100%;
+       
+        }
+
+/*.lof-main-outer
+{
+    position: relative;
+    height: 100%;
+    width: 395px;
+    z-index: 3;
+    overflow: hidden;
+}*/
+
+
+/*******************************************************/
+/*.lof-main-item-desc { z-index: 100; position: absolute; top: 234px; left: 0px; width: 395px;background:url(../images/lof-main-item-desc.png); min-height:36px; opacity: .8 }*/
+.lof-main-item-desc p
+{
+    color: #014F9F;
+    margin: 0 8px;
+    padding: 8px 0;
+}
+
+.lof-main-item-desc a
+{
+    color: #014F9F;
+    margin: 0;
+    margin-left: 15px;
+}
+.lof-main-item-desc1 p
+{
+    color: #014F9F;
+    margin: 0 8px;
+    padding: 8px 0;
+}
+
+.lof-main-item-desc1 a
+{
+    color: #014F9F;
+    margin: 0;
+    margin-left: 15px;
+}
+    .lof-main-item-desc a:hover
+    {
+        color: #014F9F;
+        text-decoration: underline;
+    }
+    .lof-main-item-desc1 a:hover
+    {
+        color: #014F9F;
+        text-decoration: underline;
+    }
+
+/* main flash */
+ul.lof-main-wapper
+{ /* margin-right:auto; */
+    overflow: hidden;
+    padding: 0px;
+    margin: 0;
+    height: 300px;
+    width: 395px;
+    position: absolute;
+    overflow: hidden;
+}
+
+    ul.lof-main-wapper li
+    {
+        overflow: hidden;
+        padding: 0px;
+        margin: 0px;
+        height: 100%;
+        width: 395px;
+        float: left;
+    }
+
+.lof-opacity li
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    float: inherit;
+}
+
+ul.lof-main-wapper li img
+{
+    padding: 0px; /*width: 600px;*/
+    width: 395px;
+    height: 300px;
+}
+
+li-desc
+{
+    z-index: 100;
+    position: absolute;
+    top: 150px;
+    left: 50px;
+    width: 400px;
+}
+
+    li-desc p
+    {
+        color: #FFF;
+        margin: 0 8px;
+        padding: 8px 0;
+    }
+
+    li-desc a
+    {
+        color: #FFF;
+        margin: 0;
+        padding: 20px 8px 2px;
+    }
+
+        li-desc a:hover
+        {
+            color:#014F9F;
+        }
+
+/* item navigator */
+ul.lof-navigator
+{
+    top: 0;
+    padding: 0;
+    margin: 0;
+    position: absolute;
+    width: 100%;
+}
+ul.lof-navigator1
+{
+    top: 0;
+    padding: 0;
+    margin: 0;
+    position: absolute;
+    width: 100%;
+}
+    ul.lof-navigator li
+    {
+        cursor: pointer;
+        list-style: none;
+        width: 100%;
+        padding: 0;
+        margin: 0;
+        width: 235px;
+    }
+/*ul.lof-navigator li.item4 { margin-bottom:0px !important}*/
+.lof-navigator-outer
+{
+    position: absolute;
+    right: 0;
+    top: 0px;
+    z-index: 100;
+}
+
+.lof-navigator li.active a
+{
+    color: #333;
+}
+.lof-navigator1 li.active a
+{
+    color: #333;
+}
+.lof-navigator li:hover
+{
+}
+
+.lof-navigator li h3
+{
+    color: #fff;
+    font-size: 100%;
+    padding: 15px 0 0 !important;
+    margin: 0;
+}
+
+.lof-navigator li .div-navigator
+{
+    color: #373737;
+    position: relative;
+    overflow: hidden;
+    margin-bottom: 10px;
+    overflow: hidden;
+}
+/*.lof-navigator li.active .div-navigator { background: #fff; color: #fff; border: 0px;-moz-border-radius: 0px 4px 4px 0px; -webkit-border-radius: 0px 4px 4px 0px;   border-radius: 0px 4px 4px 0px;}*/
+.lof-navigator li a.imageviewer
+{
+    position: absolute;
+    top: 3px;
+    left: 3px;
+}
+
+.lof-navigator li a.title
+{
+    color: #333;
+    font-weight: bold;
+    font-size: 13px;
+    line-height: 18px;
+}
+
+    .lof-navigator li a.title:hover
+    {
+        text-decoration: none;
+        color: #014F9F;
+    }
+
+    .lof-navigator li a.title img
+    {
+        margin-right: 5px;
+    }
+
+
+.lof-navigator li.active h3
+{
+    color: #fff;
+}

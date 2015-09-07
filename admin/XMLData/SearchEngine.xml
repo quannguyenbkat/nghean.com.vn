@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<SearchEngine>
+  <key datakey="1" name="Tiêu đề BIC CMS" key="AdminTitle" value="Hệ thống quản trị BIC CMS" />
+  <key datakey="2" name="Meta Description" key="Description" value="" />
+  <key datakey="3" name="Meta Keywords" key="Keywords" value="" />
+  <key datakey="9" name="Meta Address" key="MetaAddress" value="" />
+  <key datakey="4" name="Tiêu đề trang" key="Title" value="" />
+  <key datakey="5" name="Geo placename" key="Placename" value="" />
+  <key datakey="10" name="Geo position" key="GeoPosition" value="21.002259, 105.805866" />
+  <key datakey="11" name="Geo region" key="Georegion" value="VN-Hanoi" />
+  <key datakey="6" name="Google Analytics" key="GoogleAnalytics" value="" />
+  <key datakey="7" name="GoogleWebMasterKey" key="GoogleWebMasterKey" value="" />
+  <key datakey="8" name="Mã nguôn ngữ mặc định" key="DefaultLanguage" value="vi" />
+  <key datakey="12" name="Mã nguôn ngữ mặc định - Admin" key="DefaultLanguageAdmin" value="vi" />
+  <key datakey="14" name="Facebook App ID" key="FacebookAppID" value="" />
+  <key datakey="15" name="Facebook Site Name" key="FacebookSiteName" value="http://" />
+  
+</SearchEngine>

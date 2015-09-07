@@ -1,0 +1,180 @@
+﻿.RadMenu_Top {
+    float: right !important;
+}
+/* MENU-TOP */
+#wrapper #wr_main #top_menu .RadMenu_Top ul.rmRootGroup {
+    margin: 0 8px 0 7px;
+}
+/* add new style */
+.RadMenu_Top .rmRootGroup.rmHorizontal .rmItem .rmSlide .rmVertical.rmGroup{
+	opacity: 0.9;
+}
+.RadMenu_Top .rmRootGroup.rmHorizontal .rmItem .rmSlide .rmVertical.rmGroup.rmLevel1 .rmItem{
+	border-bottom: solid 1px #434142;
+}
+.RadMenu_Top .rmRootGroup .rmItem {
+    /*opacity: 0.94;*/
+}
+/* end */
+.RadMenu_Top .rmRootGroup .rmItem.rmLast {
+    border: none !important;
+}
+
+
+#top_menu .rmHorizontal .RadMenu_Top .rmRootGroup .rmItem.rmFirst .rmLink:hover {
+    position: relative;
+    z-index: 999;
+}
+
+#top_menu ul, li {
+    padding: 0;
+    margin: 0;
+}
+.RadMenu_Top .rmRootGroup .rmItem .rmLink {
+    padding: 0px !important;
+    color: #000;
+    font: bold 12px Arial;
+}
+
+.RadMenu_Top .rmRootGroup .rmItem .rmLink .rmText{
+	padding: 0 15px;
+	height: 37px;
+	cursor: pointer;
+	text-transform: uppercase;
+	position: relative;
+    font: italic 12px/37px UTM-Nokia;
+	color: #000;
+}
+.rmSlide .rmRootGroup .rmItem .rmLink .rmText { background :none;}
+
+.RadMenu_Top .rmRootGroup .rmItem:last-child .rmLink .rmText { background :none;}
+
+
+.rmRootGroup.rmHorizontal > .rmItem .rmLink:hover, .RadMenu_Top .rmRootGroup.rmHorizontal > .rmItem .rmLink:hover,.RadMenu_Top .rmRootGroup.rmHorizontal > .rmItem .expanded  {
+    background :url(img/bg_menu_hover.png) no-repeat 50% 0px;
+background-size: 100% 100%; 
+}
+.rmRootGroup.rmHorizontal > .rmItem > a:hover, .RadMenu_Top .rmRootGroup.rmHorizontal > .rmItem:hover > a .rmText,.RadMenu_Top .rmRootGroup.rmHorizontal > .rmItem > a.expanded .rmText {
+
+}
+
+.RadMenu_Top .rmRootGroup > .rmItem:hover > a .rmText .fix_left,.RadMenu_Top .rmRootGroup > .rmItem > a.expanded .rmText .fix_left {
+      position: absolute;
+    width: 13px;
+    height: 7px;
+    background: url(img/nt_menu_active.png) no-repeat;
+    top: 40px;
+    left: 42%;
+}
+
+.RadMenu_Top .rmRootGroup > .rmItem > .rmLink:hover {
+}
+
+.RadMenu_Top .rmRootGroup .rmItem:hover, .RadMenu_Top .rmRootGroup .rmItem.rmFirst:hover, .RadMenu_Top .rmRootGroup .rmItem.rmFirst.refreshgach, .RadMenu_Top .rmRootGroup .rmItem.refreshgach a.expanded {
+    /*background: #f89920;*/
+}
+
+
+.rmLevel1 .menuhome-firt {
+    width: 0px;
+    height: 0px;
+}
+
+.RadMenu_Top .rmRootGroup .rmItem.rmFirst .rmText {
+    position: relative;
+}
+
+.RadMenu_Top .rmRootGroup .rmItem.rmLast .rmLink .rmText {
+}
+/*Submenu*/
+.RadMenu_Top>ul>li>.rmSlide {
+    margin-left: -1px;
+    min-width: 100%;
+    position: absolute;
+    top: 36px !important;
+}
+
+.RadMenu_Top .rmSlide {
+    /*margin-left: 1px;*/
+    z-index: 99999;
+}
+
+.RadMenu .rmRootGroup .rmItem .rmGroup {
+    padding-bottom: 0px !important;
+    /*border-radius: 0 8px 0 0;*/
+}
+
+.RadMenu_Top .rmSlide a {
+    text-decoration: none !important;
+}
+
+.RadMenu_Top .rmSlide .rmVertical.rmLevel1 {
+    min-width: 100%;
+}
+
+.RadMenu_Top .rmSlide .rmVertical.rmLevel2 {
+}
+
+.RadMenu_Top .rmSlide .rmItem {
+    text-align: left !important;
+    background: none;
+    border-bottom: 1px solid #0161ab;
+    margin: 0 0 0 1px;
+}
+    .RadMenu_Top .rmSlide .rmItem .rmLink {
+        padding: 0 !important;
+        min-width: 150px;
+    }
+
+.rmHorizontal .rmLink:hover, .rmHorizontal .rmExpanded, .rmHorizontal .expanded {
+    background-position: top center;
+    position: relative;
+    z-index: 0;
+}
+
+#wr_main #wr_menu #top_menu .RadMenu_Top .rmRootGroup .rmItem :hover {
+
+}
+
+#wr_main #wr_menu #top_menu .RadMenu_Top .rmRootGroup .rmItem.refreshgach a.rmLink.expanded {
+    background-color: #000;
+    border-top-left-radius: 5px;
+    -moz-border-radius-topleft: 5px;
+    -webkit-border-top-left-radius: 5px;
+}
+
+.RadMenu_Top .rmRootGroup .rmItem.rmFirst .rmText .fix_left, .RadMenu_Top .rmRootGroup .rmItem.rmFirst .rmText .fix_right {
+    
+}
+
+
+.rmHorizontal .rmFirst .rmLink:hover .rmText, .rmHorizontal .rmFirst .rmExpanded .rmText, .RadMenu_Top .rmRootGroup .rmItem.rmFirst .expanded .rmText {
+    
+}
+
+.rmHorizontal .rmSlide .rmItem .rmLink .rmText {
+    margin: 0 !important;
+    padding: 8px 16px !important;
+    height: auto;
+    text-align: left;
+    text-transform: none;
+    line-height: 36px;
+    color: #000;
+    font:normal 12px/18px Arial;
+    text-transform: uppercase; background :none;
+}
+
+
+
+.RadMenu_Top .rmSlide .rmItem:hover >a>.rmText,.rmHorizontal .rmSlide .rmItem .rmLink .rmText:hover {
+    background: #0032b2;  color :#000;
+}
+
+.RadMenu_Top .rmSlide .rmItem:hover >a>.rmText.rmExpandRight {
+   background: #0032b2;  color :#000;
+}
+.RadMenu_Top .rmSlide .rmItem .rmLink .rmText:hover, .RadMenu_Top .rmSlide .rmItem .expanded .rmText {
+    font-size: 12px;
+    text-transform: uppercase;
+}
+
